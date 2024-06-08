@@ -35,7 +35,6 @@ def main():
         for i in range(rows):
             for j in range(cols):
                 transposed_image[j][i] = zoomed_image[i][j]
-        
 
         print(f"New shape after Transpose: {transposed_image.shape}")
 

@@ -17,7 +17,7 @@ def slice_me(family: list, start: int, end: int) -> list:
         assert (isinstance(start, int) and isinstance(end, int)), \
             "Error: Start and end should be of type int"
         assert start <= len(family) or end <= len(family), \
-         "Error: Start or end is greater than the length of the list"
+            "Error: Start or end is greater than the length of the list"
         assert len(family) > 0, "Error: Empty list"
         assert isinstance(family, list), \
             "Error: family should be of type list"
